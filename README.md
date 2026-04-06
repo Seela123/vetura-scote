@@ -250,12 +250,19 @@ Dashboard Overview
 
 ![Dashboard Overview](dashboard_avg.png)
 
+
 Fuel Distribution Visual
+
 ![Fuel Distribution](images/fuel_distribution.png)
+
 Transmission Analysis Visual
+
 ![Transmission Analysis](images/transmission_analysis.png)
+
 KPI Summary Visual
+
 ![KPI Summary](images/kpi_summary.png)
+
 How to Run the Project
 1. Clone the repository
 git clone <your-repository-url>
