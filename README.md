@@ -246,7 +246,8 @@ Dashboard Screenshots
 Dashboard Overview
 ## Dashboard Screenshot
 
-![Dashboard AVG](dashboard%20AVG.png)
+![Dashboard Overview](dashboard_avg.png)
+
 Fuel Distribution Visual
 ![Fuel Distribution](images/fuel_distribution.png)
 Transmission Analysis Visual
