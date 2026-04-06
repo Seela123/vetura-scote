@@ -242,10 +242,10 @@ transmission type distribution
 overall car market patterns from the scraped data
 Dashboard Screenshots
 
-Add your dashboard screenshots here later.
 
 Dashboard Overview
-![Dashboard Overview](images/dashboard_overview.png)
+<img width="1176" height="531" alt="image" src="https://github.com/user-attachments/assets/6de1fbbc-cd8a-40a2-9bef-607488c579a3" />
+
 Fuel Distribution Visual
 ![Fuel Distribution](images/fuel_distribution.png)
 Transmission Analysis Visual
