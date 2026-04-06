@@ -244,8 +244,9 @@ Dashboard Screenshots
 
 
 Dashboard Overview
-<img width="1176" height="531" alt="image" src="https://github.com/user-attachments/assets/6de1fbbc-cd8a-40a2-9bef-607488c579a3" />
+## Dashboard Screenshot
 
+![Dashboard AVG](dashboard%20AVG.png)
 Fuel Distribution Visual
 ![Fuel Distribution](images/fuel_distribution.png)
 Transmission Analysis Visual
