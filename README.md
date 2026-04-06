@@ -1,45 +1,328 @@
-Overview
-========
+# Vetura-Scote Data Engineering Project
 
-Welcome to Astronomer! This project was generated after you ran 'astro dev init' using the Astronomer CLI. This readme describes the contents of the project, as well as how to run Apache Airflow on your local machine.
+## Overview
 
-Project Contents
-================
+This project is an end-to-end data engineering pipeline built using **Python, PostgreSQL, dbt, and Power BI**.
 
-Your Astro project contains the following files and folders:
+The goal of the project is to collect car listing data from the **VeturaScout API**, store it in a database, transform it through **Bronze, Silver, and Gold layers** using dbt, and finally visualize the results in **Power BI**.
 
-- dags: This folder contains the Python files for your Airflow DAGs. By default, this directory includes one example DAG:
-    - `example_astronauts`: This DAG shows a simple ETL pipeline example that queries the list of astronauts currently in space from the Open Notify API and prints a statement for each astronaut. The DAG uses the TaskFlow API to define tasks in Python, and dynamic task mapping to dynamically print a statement for each astronaut. For more on how this DAG works, see our [Getting started tutorial](https://www.astronomer.io/docs/learn/get-started-with-airflow).
-- Dockerfile: This file contains a versioned Astro Runtime Docker image that provides a differentiated Airflow experience. If you want to execute other commands or overrides at runtime, specify them here.
-- include: This folder contains any additional files that you want to include as part of your project. It is empty by default.
-- packages.txt: Install OS-level packages needed for your project by adding them to this file. It is empty by default.
-- requirements.txt: Install Python packages needed for your project by adding them to this file. It is empty by default.
-- plugins: Add custom or community plugins for your project to this file. It is empty by default.
-- airflow_settings.yaml: Use this local-only file to specify Airflow Connections, Variables, and Pools instead of entering them in the Airflow UI as you develop DAGs in this project.
+This project demonstrates practical data engineering work, including:
 
-Deploy Your Project Locally
-===========================
+- API data extraction with Python
+- Loading raw data into PostgreSQL
+- Data transformation with dbt
+- Building analytical models
+- Creating dashboards in Power BI
 
-Start Airflow on your local machine by running 'astro dev start'.
+---
 
-This command will spin up five Docker containers on your machine, each for a different Airflow component:
+## Architecture
 
-- Postgres: Airflow's Metadata Database
-- Scheduler: The Airflow component responsible for monitoring and triggering tasks
-- DAG Processor: The Airflow component responsible for parsing DAGs
-- API Server: The Airflow component responsible for serving the Airflow UI and API
-- Triggerer: The Airflow component responsible for triggering deferred tasks
+The project follows this flow:
 
-When all five containers are ready the command will open the browser to the Airflow UI at http://localhost:8080/. You should also be able to access your Postgres Database at 'localhost:5432/postgres' with username 'postgres' and password 'postgres'.
+**VeturaScout API → Python Scraper → PostgreSQL → dbt Bronze → dbt Silver → dbt Gold → Power BI Dashboard**
 
-Note: If you already have either of the above ports allocated, you can either [stop your existing Docker containers or change the port](https://www.astronomer.io/docs/astro/cli/troubleshoot-locally#ports-are-not-available-for-my-local-airflow-webserver).
+---
 
-Deploy Your Project to Astronomer
-=================================
+## Tech Stack
 
-If you have an Astronomer account, pushing code to a Deployment on Astronomer is simple. For deploying instructions, refer to Astronomer documentation: https://www.astronomer.io/docs/astro/deploy-code/
+- **Python**
+- **Requests**
+- **psycopg2**
+- **python-dotenv**
+- **PostgreSQL**
+- **dbt**
+- **Power BI**
 
-Contact
-=======
+---
 
-The Astronomer CLI is maintained with love by the Astronomer team. To report a bug or suggest a change, reach out to our support.
+## Data Source
+
+The data is collected from the VeturaScout API:
+
+`https://api.veturascout.com/api/listings/advancedSearch`
+
+The scraper collects car listing data page by page and stores it in PostgreSQL and CSV format.
+
+---
+
+## Data Collected
+
+The scraper extracts the following fields:
+
+- `id`
+- `name`
+- `price`
+- `brand`
+- `subBrand`
+- `km`
+- `fuel`
+- `transmission`
+- `city`
+- `year`
+
+---
+
+## Project Structure
+
+```bash
+vetura-scote/
+│
+├── dbt/
+│   └── scote_project/
+│       └── models/
+│           ├── Bronze/
+│           ├── Silver/
+│           └── Gold/
+│
+├── scraping.py
+├── vetura_score.csv
+├── dashbord scote-vetura.pbix
+├── README.md
+├── .gitignore
+└── .idea/
+Folder and File Description
+scraping.py
+Python script that extracts data from the VeturaScout API, creates the PostgreSQL table, inserts records, and exports the dataset to CSV.
+vetura_score.csv
+Raw exported file generated by the scraping process.
+dbt/scote_project/models/Bronze
+Contains the Bronze model, which loads the raw source data.
+dbt/scote_project/models/Silver
+Contains the Silver model, which cleans and standardizes the raw data.
+dbt/scote_project/models/Gold
+Contains Gold models built for analytics and dashboard reporting.
+dashbord scote-vetura.pbix
+Power BI dashboard file connected to the transformed data.
+Pipeline Steps
+1. Extract data with Python
+
+The first step is a Python scraping script that calls the VeturaScout API using pagination.
+
+The script:
+
+loads PostgreSQL credentials from .env
+connects to PostgreSQL
+creates a table if it does not already exist
+requests data from the VeturaScout API
+selects the required fields
+inserts the records into PostgreSQL
+exports the results to vetura_score.csv
+2. Load raw data into PostgreSQL
+
+The raw scraped data is stored in the cars_table table.
+
+Example table schema:
+
+CREATE TABLE IF NOT EXISTS cars_table (
+    id INTEGER PRIMARY KEY,
+    name VARCHAR(255),
+    price NUMERIC,
+    brand VARCHAR(100),
+    subBrand VARCHAR(100),
+    km NUMERIC,
+    fuel VARCHAR(50),
+    transmission VARCHAR(100),
+    city VARCHAR(100),
+    year INTEGER
+);
+
+To avoid duplicate records, the script uses:
+
+ON CONFLICT (id) DO NOTHING
+3. Transform data with dbt
+
+After the raw data is loaded, dbt is used to transform the dataset into layered models:
+
+Bronze → raw source data
+Silver → cleaned and standardized data
+Gold → analytics-ready tables for reporting
+4. Build dashboard in Power BI
+
+The Gold models are used in Power BI to create business-friendly visualizations and KPI reporting.
+
+Python Scraping Logic
+
+The scraper connects to the API endpoint and loops through multiple pages to collect listing data.
+
+Main tasks performed by the script:
+
+API request handling
+database connection
+table creation
+record insertion
+CSV export
+
+This makes the project a complete ingestion-to-reporting pipeline.
+
+dbt Models
+Bronze Layer
+
+The Bronze layer keeps the raw source data with no transformation.
+
+{{ config(materialized='table') }}
+
+select *
+from {{ source('local_files', 'cars_table') }}
+
+This layer acts as the raw foundation for the next transformations.
+
+Silver Layer
+
+The Silver layer cleans and standardizes the data.
+
+Main transformations performed:
+
+trims spaces from text fields
+converts invalid values to NULL
+filters unrealistic prices
+filters unrealistic years
+standardizes fuel values
+standardizes transmission values
+cleans brand and subbrand fields
+
+This layer improves data quality before analytics.
+
+Example business rules applied:
+
+price > 1000
+year >= 1900 and year <= 2026
+Gold Layer
+
+The Gold layer contains the final analytical models used in Power BI.
+
+1. Top car models
+
+This model combines brand and subbrand and shows the most common car models.
+
+Output example:
+
+combined car name
+total count
+2. Fuel distribution
+
+This model counts the total number of listings by fuel type.
+
+Output example:
+
+fuel type
+total listings
+3. Average KPIs
+
+This model calculates average values across the dataset.
+
+Output example:
+
+average price
+average kilometers
+average year
+4. Transmission analysis
+
+This model calculates:
+
+transmission type
+total count
+percentage share
+
+These Gold tables are designed for direct dashboard usage.
+
+Data Quality and Testing
+
+dbt tests were also used in the project to validate the models and improve reliability.
+
+This helps ensure that the transformed data is cleaner and more trustworthy before being used in reporting.
+
+Dashboard
+
+The Power BI dashboard is built from the Gold layer and is designed to provide quick insights into the car listing market.
+
+It can be used to analyze:
+
+most common car models
+fuel type distribution
+average price, average kilometers, and average year
+transmission type distribution
+overall car market patterns from the scraped data
+Dashboard Screenshots
+
+Add your dashboard screenshots here later.
+
+Dashboard Overview
+![Dashboard Overview](images/dashboard_overview.png)
+Fuel Distribution Visual
+![Fuel Distribution](images/fuel_distribution.png)
+Transmission Analysis Visual
+![Transmission Analysis](images/transmission_analysis.png)
+KPI Summary Visual
+![KPI Summary](images/kpi_summary.png)
+How to Run the Project
+1. Clone the repository
+git clone <your-repository-url>
+cd vetura-scote
+2. Create a virtual environment
+python -m venv .venv
+3. Activate the environment
+
+On Windows:
+
+.venv\Scripts\activate
+4. Install dependencies
+pip install requests psycopg2 python-dotenv
+5. Create a .env file
+
+Add your PostgreSQL credentials:
+
+DB_HOST=your_host
+DB_NAME=your_database
+DB_USER=your_user
+DB_PASSWORD=your_password
+DB_PORT=your_port
+6. Run the scraper
+python scraping.py
+7. Run dbt models
+
+Go into your dbt project and run:
+
+dbt run
+dbt test
+8. Open Power BI
+
+Open the .pbix file to view the dashboard.
+
+Key Skills Demonstrated
+
+This project demonstrates skills in:
+
+API ingestion
+Python scripting
+PostgreSQL loading
+raw-to-analytics data modeling
+dbt transformations
+data cleaning and standardization
+Power BI reporting
+end-to-end pipeline design
+Challenges and Learnings
+
+Through this project, I practiced:
+
+building a complete pipeline from ingestion to reporting
+working with real-world API data
+storing raw data in a database
+cleaning and standardizing messy values
+organizing transformations using Bronze, Silver, and Gold layers
+preparing data for dashboard use
+Future Improvements
+
+Possible next improvements for this project:
+
+add logging to the Python script
+improve error handling
+schedule the pipeline with Airflow
+add more dbt tests
+create more Gold models
+improve dashboard design with more KPIs
+containerize the project with Docker
+deploy the project to the cloud
+Author
+
+Seela123
