@@ -111,7 +111,7 @@ The raw scraped data is stored in the cars_table table.
 
 Example table schema:
 
-CREATE TABLE IF NOT EXISTS cars_table (
+```CREATE TABLE IF NOT EXISTS cars_table (
     id INTEGER PRIMARY KEY,
     name VARCHAR(255),
     price NUMERIC,
@@ -122,7 +122,7 @@ CREATE TABLE IF NOT EXISTS cars_table (
     transmission VARCHAR(100),
     city VARCHAR(100),
     year INTEGER
-);
+);```
 
 To avoid duplicate records, the script uses:
 
@@ -156,12 +156,12 @@ dbt Models
 Bronze Layer
 
 The Bronze layer keeps the raw source data with no transformation.
-
+```
 {{ config(materialized='table') }}
 
 select *
 from {{ source('local_files', 'cars_table') }}
-
+```
 This layer acts as the raw foundation for the next transformations.
 
 Silver Layer
@@ -270,7 +270,7 @@ pip install requests psycopg2 python-dotenv
 5. Create a .env file
 
 Add your PostgreSQL credentials:
-
+```
 DB_HOST=your_host
 DB_NAME=your_database
 DB_USER=your_user
@@ -279,13 +279,13 @@ DB_PORT=your_port
 6. Run the scraper
 python scraping.py
 7. Run dbt models
-
+```
 Go into your dbt project and run:
-
+```
 dbt run
 dbt test
 8. Open Power BI
-
+```
 Open the .pbix file to view the dashboard.
 
 Key Skills Demonstrated
