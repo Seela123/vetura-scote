@@ -1,0 +1,191 @@
+id,name,price,brand,subBrand,km,fuel,transmission_name,city,year
+5027,Mercedes-benz,18900,Mercedes-benz,Cla,214000,Diesel,Automatic,null,2020
+6559,Bmw,14300,Bmw,3er,190000,Diesel,Automatic,Mitrovica,2014
+6649,Vw,29300,Vw,Tiguan,20000,Diesel,Automatik,Prishtinë,2022
+6581,XC60 D5 AWD Geartronic,25000,Volvo,Xc60,116000,Diesel,Automatik,Prizren,2018
+6622,Mercedes-benz,7900,Mercedes-benz,M-klasse,390000,Diesel,Automatik,Ferizaj,2009
+1759,118d Edition M Sport,13500,Bmw,1er Serie F21 3-Türen/portes MY 2015-,335000,Diesel,Automatic,,2017
+6462,Audi,45550,Audi,A6,138000,Diesel,Automatic,Prishtinë,
+6533,A6 50 TDI quattro tiptronic,39800,Audi,A6,168000,Diesel,Automatik,Prishtinë,2021
+6525,X5 xDrive40d Sport-Aut.,29800,Bmw,X5,120000,Diesel,Automatik,Prishtinë,2017
+6515,A6 50 TDI quattro tiptronic,46500,Audi,A6,140000,Diesel,Automatik,Prishtinë,2020
+6504,A4 1.4 TFSI S tronic,19450,Audi,A4,168300,Petrol,Automatik,,2019
+6496,C4 X PureTech 130 Stop&Start EAT8,15500,Citroen,C4 X,71026,Petrol,Automatik,,2023
+6472,Audi,16200,Audi,A4,280000,Diesel,Automatik,"167, Dardania, Metallaci, Janjevë, Municipality of Lipljan, District of Prishtina, 14050, Kosovo",2020
+6464,Peugeot,3000,Peugeot,407,395000,Diesel,Manuelles Getriebe,Peja,2005
+6444,118d Aut.,15000,Bmw,1er,300,Diesel,Automatik,Prishtinë,2017
+5023,Tiguan 2.0 TDI SCR 4Motion (BlueMotion Techn.) DSG,32000,Vw,Tiguan,135000,Diesel,Automatik,Prishtinë,2021
+6411,Navara,12500,Nissan,Navara Bis 2015,165000,Diesel,Manuelles Getriebe,Gjilan,2008
+6401,Megane Grandtour dCi 110 FAP,13490,Renault,Megane,86811,Diesel,Manuelles Getriebe,,2016
+6388,S6 Avant TDI quattro tiptronic,44900,Audi,A6,158000,Diesel,Automatik,Prishtinë,2021
+6376,GLE 400 d 4Matic 9G-TRONIC,59800,Mercedes-benz,Gle,148000,Diesel,Automatik,Prishtinë,2021
+6363,S 350 d 9G-TRONIC,35900,Mercedes-benz,S-klasse,190000,Diesel,Automatik,Prishtinë,2018
+6352,Ghibli,26900,Maserati,Ghibli,98000,Petrol,Automatik,Prishtinë,2017
+6342,Ford,8900,Ford,Mondeo,223000,Diesel,Automatik,Fushe Kosove,2016
+6331,A4 40 TDI S tronic,19800,Audi,A4,192000,Diesel,Automatik,Prishtinë,2020
+6321,Tiguan 2.0 TDI SCR (BlueMotion Technology) DSG,23900,Vw,Tiguan,23900,Diesel,Automatik,,2019
+6293,A4 2.0 TDI DPF,7199,Audi,A4,341000,Diesel,Manuelles Getriebe,Fushe Kosove,2008
+6275,X3 xDrive30d Aut.,16800,Bmw,X3,167000,Diesel,Automatik,,2014
+6266,Sharan 2.0 TDI DSG BlueMotion Technology,15100,Vw,Sharan,215190,Diesel,Automatik,"Riedmattstrasse 8, 8153 Rümlang",2013
+6256,535d xDrive Sport-Aut.,27000,Bmw,5er,96618,Diesel,Automatik,"Riedmattstrasse 8, 8153 Rümlang",2013
+6246,X2 xDrive25d Aut.,27000,Bmw,X2,111503,Diesel,Automatik,"Riedmattstrasse 8, 8153 Rümlang",2018
+6236,Discovery Sport TD4 Aut.,16200,Land Rover,Discovery Sport,135080,Diesel,Automatik,"Riedmattstrasse 8, 8153 Rümlang",2016
+6226,C 400 4Matic T 7G-TRONIC,21600,Mercedes-benz,C-klasse,168900,Petrol,Automatik,"Riedmattstrasse 8, 8153 Rümlang",2016
+5789,Golf 2.0 TDI SCR,11500,Vw,Golf Vii,230000,Diesel,Manuelles Getriebe,Prishtinë,2015
+6204,V 220 d kompakt 4Matic 9G-TRONIC,51000,Mercedes-benz,V-klasse 447,60400,Diesel,Automatik,,2021
+6188,GLC-Coupe 220 d 4Matic 9G-TRONIC,37900,Mercedes-benz,Glc,122845,Diesel,Automatik,,2019
+6173,TTS Coupe,24700,Audi,Audi Tt,137500,Petrol,Manuelles Getriebe,,2015
+6158,i3 (60 Ah) Range Extender,10800,Bmw,I3,117099,Benzin/Elektro-PlugIn,Direktantrieb,"Riedmattstrasse 8, 8153 Rümlang",2015
+6146,Tucson 1.6 Turbo 2WD,22300,Hyundai,Tucson,56000,Petrol,Manuelles Getriebe,,2018
+6121,SQ5 TDI Sportback quattro tiptronic,39900,Audi,Q5,68058,Diesel,Automatik,,2021
+5992,Bmw,15900,Bmw,3er,180500,Diesel,Automatik,Vushtrri,2016
+5985,Talisman ENERGY dCi 130 EDC,12990,Renault,Talisman,173145,Diesel,Automatic,Prishtinë,2017
+5973,Discovery Sport D150,15900,Land Rover,Discovery Sport,253926,Diesel,Automatik,Prishtinë,2017
+5912,Bmw,40000,Bmw,4er,98000,Benzin,Automatik,Peja,2015
+5859,Audi,29000,Audi,Q5,190000,Diesel,Automatik,Prishtinë,2017
+5813,Audi,21500,Audi,A7,158000,Diesel,Automatik,,2016
+5780,Toyota,13000,Toyota,Yaris,116000,Petrol,Automatic,Prishtinë,2017
+5764,C3 Aircross PureTech 110 Stop & Start EAT6,14500,Citroen,C3 Aircross,86358,Petrol,Automatik,Prishtinë,2018
+5730,Mercedes-benz,34999,Mercedes-benz,Cla,72124,Diesel,Automatik,Mitrovica,2020
+5713,Mercedes-benz,22000,Mercedes-benz,M-klasse,251800,Diesel,Automatik,Gjakova,2012
+5689,Vw,11900,Vw,Golf Vii,270000,Diesel,Manuelles Getriebe,,2014
+5676,Golf 2.0 TDI SCR DSG,31500,Vw,Golf Viii,25736,Diesel,Automatik,Prishtinë,2024
+5659,Jaguar,18000,Jaguar,Xf,180000,Benzin,Automatik,null,2017
+5590,Audi,17400,Audi,A4,280000,Diesel,Automatik,Lipjan,2020
+5623,320d Aut. xDrive,16900,Bmw,3er,151150,Diesel,Automatik,Prishtinë,2015
+5611,XC90 D5 AWD Geartronic,43900,Volvo,Xc90,71850,Diesel,Automatik,Prishtinë,2022
+5572,E 220 d 4Matic T 9G-TRONIC,24800,Mercedes-benz,E-klasse,175000,Diesel,Automatik,Prishtinë,2017
+5530,Vw,9600,Vw,Passat,312000,Diesel,Automatik,,2014
+5502,Captur TCe 140 EDC GPF,19990,Renault,Captur,3890,Petrol,Automatik,Prishtinë,2022
+5488,Range Rover Evoque TD4 Aut.,18500,Land Rover,Range Rover Evoque,56150,Diesel,Automatik,,2017
+5461,Bmw,23500,Bmw,X3,257000,Diesel,Automatik,Kacanik,2016
+5423,313 CDI Sprinter 4x4 906.633 Aut.,13990,Mercedes-benz,Sprinter,334179,Diesel,Automatik,Prishtinë,2016
+5406,Mercedes-benz,19000,Mercedes-benz,M-klasse,140000,Diesel,Automatic,,2013
+5384,Vw,24000,Vw,Tiguan,185900,Diesel,Automatik,,2017
+5369,Jeep,13500,Jeep,Cherokee,136000,Diesel,Manuelles Getriebe,Rom (Roma),2017
+5349,Austral E-Tech Full Hybrid 200,30900,Renault,Austral,57100,Benzin/Elektro,Automatik,Prishtinë,2023
+5335,GLA 200 d 8G-DCT,31900,Mercedes-benz,Gla,170382,Diesel,Automatik,Prishtinë,2021
+5271,118d,11000,Bmw,1er,284000,Diesel,Automatic,,2013
+5253,C4 BlueHDi 130 Stop&Start EAT8,15990,Citroen,C4,171000,Diesel,Automatic,Prishtinë,2022
+5234,750d xDrive,37000,Bmw,7er,145000,Diesel,Automatik,Obiliq,2018
+5221,AMG GT 63 S 4Matic+ Coupe AMG Speedshift MCT 9G,90000,Mercedes-benz,Amg Gt Coupe,100000,Petrol,Automatik,Obiliq,2020
+5171,Audi,12900,Audi,A6,350000,Diesel,Automatik,,2011
+5141,Vw,17900,Vw,Tiguan,299000,Diesel,Automatik,,2017
+5097,Bmw,13499,Bmw,1er,220000,Diesel,Automatik,,2017
+5088,PEUGEOT 3008 1.5d ACTIVE,19700,Peugeot,3008,147000,Diesel,Automatik,,2021
+5061,Sandero dCi 75,7500,Dacia,Sandero,60000,Diesel,Manual,,2017
+5014,Vw,20900,Vw,T-roc,235452,Diesel,Automatik,,2019
+4980,Bmw,2500,Bmw,3er,390000,Diesel,Manuelles Getriebe,Malishevë,2006
+4946,320d xDrive GT Aut.,29900,Bmw,3er,73948,Diesel,Automatik,,2019
+4923,Passat 2.0 TDI SCR DSG,16900,Vw,Passat,227585,Diesel,Automatik,,2016
+3282,Kodiaq 2.0 TDI 4x4 DSG,28000,Skoda,Kodiaq,117000,Diesel,Automatic,,2019
+4894,Q3 2.0 TDI S tronic,16950,Audi,Q3,268500,Diesel,Automatik,,2015
+4879,520d Aut.,13950,Bmw,5er,314202,Diesel,Automatik,,2014
+4867,Mercedes-benz,26000,Mercedes-benz,Glc,234000,Diesel,Automatik,Gjilan,2017
+4825,Qashqai 1.3 DIG-T MHEV Xtronic,20900,Nissan,Qashqai,136500,Petrol,Automatik,,2021
+4795,Vw,25500,Vw,Golf Viii,175613,Diesel,Automatik,,2020
+4775,Volvo,13999,Volvo,V60,268000,Diesel,Automatik,Fushe Kosove,2014
+4732,C Class 2012 Automatik CDI,10500,Mercedes-benz,C-klasse,310000,Diesel,Automatic,,2012
+4696,Citroen,2500,Citroen,Berlingo Pkw,225000,Diesel,Manuelles Getriebe,Ferizaj,2008
+4676,T-Roc Cabriolet 1.5 TSI OPF DSG,35300,Vw,T-roc,8500,Petrol,Automatik,,2021
+4663,A8 4.2 TDI DPF quattro tiptronic,19400,Audi,A8,231155,Diesel,Automatik,"Riedmattstrasse 8, 8153 Rümlang",2012
+4653,Golf GTI Performance BlueMotion Technology DSG,17300,Vw,Golf Vii,135379,Petrol,Automatik,"Riedmattstrasse 8, 8153 Rümlang",2013
+4642,335i xDrive Coupe Aut.,14000,Bmw,3er,232411,Petrol,Automatik,"Riedmattstrasse 8, 8153 Rümlang",2013
+4632,Antara 2.0 CDTI 4x4,10800,Opel,Antara,62800,Diesel,Manuelles Getriebe,"Riedmattstrasse 8, 8153 Rümlang",2008
+4612,Continental GTC Speed,75900,Bentley,Continental Gtc,46000,Petrol,Automatik,,2009
+4596,595 C,17400,Fiat,500,61000,Petrol,Manuelles Getriebe,,2016
+4586,E 200 Cabrio 9G-TRONIC,43400,Mercedes-benz,E-klasse,32600,Petrol,Automatik,,2018
+4576,X5 xDrive30d,19400,Bmw,X5,262417,Diesel,Automatik,"Riedmattstrasse 8, 8153 Rümlang",2014
+4565,GLK 320 CDI DPF 4Matic 7G-TRONIC,8600,Mercedes-benz,Glk-klasse,249230,Diesel,Automatik,"Riedmattstrasse 8, 8153 Rümlang",2008
+4556,GLC-Coupe 220 d 4Matic 9G-TRONIC,32500,Mercedes-benz,Glc,150100,Diesel,Automatik,,2019
+4546,Range Rover Sport SDV6,19400,Land Rover,Range Rover Sport,130500,Diesel,Automatik,"Riedmattstrasse 8, 8153 Rümlang",2012
+4535,320i Touring,7500,Bmw,3er,181823,Petrol,Manuelles Getriebe,"Riedmattstrasse 8, 8153 Rümlang",2012
+4512,Kodiaq 2.0 TDI DSG,28800,Skoda,Kodiaq,157535,Diesel,Automatik,,2020
+4500,M2 Aut.,70500,Bmw,2er,28873,Petrol,Automatik,"Riedmattstrasse 8, 8153 Rümlang",2023
+4490,118i Aut.,26000,Bmw,1er,35216,Petrol,Automatik,"Riedmattstrasse 8, 8153 Rümlang",2021
+4479,Qashqai 1.7 dCi ALL-MODE 4x4i,20500,Nissan,Qashqai,98854,Diesel,Manuelles Getriebe,"Riedmattstrasse 8, 8153 Rümlang",2019
+4469,Passat Variant 2.0 TDI DSG (BlueMotion Technology),19400,Vw,Passat,101469,Diesel,Automatik,"Riedmattstrasse 8, 8153 Rümlang",2018
+4459,340i Touring xDrive Aut.,21600,Bmw,3er,178513,Petrol,Automatik,"Riedmattstrasse 8, 8153 Rümlang",2015
+4449,320d Touring xDrive Aut.,59600,Bmw,3er,750,Diesel,Automatik,"Riedmattstrasse 8, 8153 Rümlang",2024
+4439,RAV 4 2.5 4x4 Hybrid,39100,Toyota,Rav 4,69263,Benzin/Elektro,Automatic,null,2020
+4429,218i Active Tourer Aut.,16200,Bmw,2er,78237,Petrol,Automatik,"Riedmattstrasse 8, 8153 Rümlang",2017
+4419,Leon 2.0 TDI DPF Start&Stop DSG,15100,Seat,Leon,133482,Diesel,Automatik,"Riedmattstrasse 8, 8153 Rümlang",2019
+4409,Taycan Turbo,85700,Porsche,Taycan,37750,Elektrischer Strom,Direktantrieb,"Riedmattstrasse 8, 8153 Rümlang",2020
+4399,Passat Variant 2.0 TDI SCR DSG,17300,Vw,Passat,158689,Diesel,Automatik,"Riedmattstrasse 8, 8153 Rümlang",2021
+4389,420d Coupe xDrive Sport- Aut.,23800,Bmw,4er,139850,Diesel,Automatik,"Riedmattstrasse 8, 8153 Rümlang",2017
+4379,Range Rover Sport SDV6,54200,Land Rover,Range Rover Sport,141390,Diesel,Automatic,"Riedmattstrasse 8, 8153 Rümlang",2019
+4369,PORSCHE Panamera S E-Hybrid,40100,Porsche,Panamera,109416,Petrol,Automatic,"Riedmattstrasse 8, 8153 Rümlang",2013
+4359,Range Rover Evoque Si4,14000,Land Rover,Range Rover Evoque,186314,Petrol,Automatik,"Riedmattstrasse 8, 8153 Rümlang",2014
+4349,X3 M40i,42200,Bmw,X3,90643,Petrol,Automatik,"Riedmattstrasse 8, 8153 Rümlang",2018
+4339,Cayenne S Tiptronic S,34600,Porsche,Cayenne,113183,Hybrid,Automatic,"Riedmattstrasse 8, 8153 Rümlang",2015
+4329,SQ2 TFSI quattro S tronic,32400,Audi,Q2,93800,Petrol,Automatik,"Riedmattstrasse 8, 8153 Rümlang",2019
+4319,Tiguan 2.0 TSI 4Motion OPF DSG,44400,Vw,Tiguan,80,Petrol,Automatik,"Riedmattstrasse 8, 8153 Rümlang",2021
+4302,E 200 4Matic T 9G-TRONIC,27000,Mercedes-benz,E-klasse,129113,Petrol,Automatik,,2018
+4292,Range Rover Sport P635,217100,Land Rover,Range Rover Sport,3950,Petrol,Automatik,,2024
+4208,GL 320 CDI 4Matic 7G-TRONIC,10990,Mercedes-benz,Gl-klasse,231326,Diesel,Automatic,,2008
+4215,Audi,18800,Audi,A6,153000,Diesel,Automatic,,
+4194,XC40 D3 AWD Geartronic,26900,Volvo,Xc40,97267,Diesel,Automatik,,2018
+4156,Vw,13800,Vw,Eos,167000,Diesel,Automatik,Prishtinë,2012
+4125,Peugeot,12900,Peugeot,2008,105119,Benzin,Automatik,Prishtinë,2018
+4089,Citroen,14000,Citroen,Jumper,65000,Diesel,Manuelles Getriebe,Gjilan,2016
+4034,Audi,26900,Audi,Q3,114159,Diesel,Automatik,Prishtinë,2019
+4024,Citroen,17800,Citroen,C3 Aircross,167394,Diesel,Automatik,Prishtinë,2022
+4009,Renault ,19500,Renault,Captur,55000,Petrol,Manual,Prishtinë,2022
+3926,Peugeot,4700,Peugeot,308,305000,Diesel,Manuelles Getriebe,null,2008
+3692,Bmw,26000,Bmw,5er,260000,Diesel,Automatik,,2017
+3836,Audi,13800,Audi,A6,315000,Diesel,Automatik,,2012
+3791,530d Aut.,34500,Bmw,5er,209.000,Diesel,Automatic,Prishtinë,2017
+3747,A6 2.0 TDI ultra S tronic,21000,Audi,A6,98000,Diesel,Automatic,Gjakova,2016
+3525,Fiat,8900,Fiat,500,175000,Petrol,Manuelles Getriebe,,2012
+3699,Ceed SW 1.4 T-GDI OPF,14500,Kia,Ceed,96500,Petrol,Manuelles Getriebe,,2019
+3688,Audi,14500,Audi,A4,"320,000",Diesel,Automatik,,2014
+3641,Zafira Tourer 2.0 CDTI Automatik,10900,Opel,Zafira Tourer,238.000,Diesel,Automatik,Gjilan,2017
+3527,A4 2.0 TDI DPF clean diesel multitronic,15500,Audi,A4,110000,Diesel,Automatic,,2015
+3504,Bmw,15200,Bmw,X3,294000,Diesel,Automatic,null,2013
+3445,Mondeo 2.0 TDCi Start-Stopp PowerShift-Aut,13499,Ford,Mondeo,119000,Diesel,Automatic,,2015
+3407,Mercedes-benz,60000,Mercedes-benz,C-klasse,145000,Petrol,Automatic,null,2016
+3383,Alhambra 20.TDI (Ecomotive) Start & Stop DSG,14800,Seat,Alhambra,260000,Diesel,Automatic,,2014
+3356,Vw,555,Vw,Golf Vii,230000,Diesel,Automatik,,2015
+3336,Bmw,8900,Bmw,2er,246000,Diesel,Automatik,,2015
+3305,Octavia Combi 1.6 TDI,10000,Skoda,Octavia,229000,Diesel,Automatic,,2024
+3270,Audi,28500,Audi,Q5,263000,Diesel,Automatik,null,2018
+3241,A6 Avant 3.0 TDI DPF multitronic,16500,Audi,A6,208946,Diesel,Automatik,,2014
+3210,Nissan,11500,Nissan,Juke,100000,Benzin,Manuelles Getriebe,,2015
+3184,Vw,6200,Vw,Golf Vii,190000,Petrol,Manuelles Getriebe,,2013
+3118,Seat,7700,Seat,Leon,154000,Diesel,Manuelles Getriebe,,2014
+3082,220d Gran Tourer,14900,Bmw,2 Series,260000,Diesel,Automatic,,2019
+3052,Golf 1.6 TDI Comfortline DSG,13999,Vw,Golf Vii,280000,Diesel,Automatic,,2018
+3036,A 180 d Style 7G-DCT,17900,Mercedes-benz,A-class,240000,Diesel,Automatic,,2019
+3011,Tiguan 2.0 TDI SCR R-Line DSG,33500,Vw,Tiguan,140000,Diesel,Automatic,,2021
+2948,Vw,9100,Vw,Touran,364000,Diesel,Automatic,,2011
+2887,Audi a4 AUTOMATIK,14000,Audi,A4,32000,Diesel,Manual,null,2014
+2723,Vw,7500,Vw,Up,60000,Benzin bleifrei,Manual,,2016
+2685,Vw,27800,Vw,Passat,99000,Diesel,Automatic,,2021
+2535,Land Rover,17500,Land Rover,Rr Evoque,247000,Diesel,Manual,,2017
+2483,,16000,,,,Diesel,,,
+2404,Seat,10900,Seat,Leon,189000,Diesel,Automatic,,2014
+2299,Golf 7 1.6 TDI BlueMotion Technology DSG Cup,8000,Vw,Golf Vii,230000,Diesel,Automatic,,2014
+2202,Vw,3500,Vw,PASSAT VARIANT,435000,Diesel,Manual,,2002
+2161,Bmw,14800,Bmw,3er Serie F34 DIESEL GT MY 2013-,301438,Diesel,Automatic,,2015
+2143,Skoda,11900,Skoda,OCTAVIA Combi Diesel Mod. 2017-,336000,Diesel,Automatic,,2019
+2126,,9700,141,912,115000,Diesel,Manual,,2016
+2050,CLS 350 d AMG Line 4Matic,59000,Mercedes-benz,CLS-KLASSE LIMOUSINE 257,103000,Diesel,Automatic,,2019
+2035,Vw,12000,Vw,GOLF VII DIESEL,289000,Diesel,Manual,,2015
+2013,Audi,18800,Audi,A3 SPORTBACK DIESEL,185000,Diesel,Automatic,,2020
+2002,Q8 SUV 50 TDI quattro,112000,Audi,Q8 SUV DIESEL,00,Diesel,Automatic,,2024
+1978,Bmw,10000,Bmw,3er Serie E30 Limousine,200000,Benzin verbleit,Manual,,1987
+1953,Astra 1.6 CDTi eF Active,7900,Opel,ASTRA J DIESEL 4 Türen/portes,250.000,Diesel,Manual,,2014
+1878,Renault,5500,Renault,SCENIC II (MEGANE) Mod. 2007-,230000,Diesel,Manual,,2009
+1738,Golf 2.0 TDI GTD,14500,Vw,GOLF VII DIESEL,340000,Diesel,Automatic,,2014
+1667,SQ8 50 TDI quattro,79000,Audi,Q8/SQ8/RSQ8,177169,Diesel,Automatic,,2021
+1651,Polo 1.4 TDI BMT Comfort,9700,Vw,POLO DIESEL,190000,Diesel,Automatic,,2016
+1621,A3 2.0 TDI Design,32000,Audi,A3 SPORTBACK DIESEL,77000,Diesel,Automatic,,2020
+1609,Passat 1.6TDI BMT Trend,9500,Vw,PASSAT DIESEL,320000,Diesel,Automatic,,2014
+1576,A4 2.0 TDI,22000,Audi,A4,190000,Diesel,Automatic,,2016
+1500,B 200 CDI Urban,15800,Mercedes-benz,B-KLASSE DIESEL W242/246 Mod. 2015-,236000,Diesel,Automatic,,2018
+1475,C 43 AMG 4Matic,37900,Mercedes-benz,C-KLASSE LIM. BENZIN W205 Mod.2014-,140000,Benzin bleifrei,Automatic,,2016
+1436,Golf 2.0 TDI Comfort 4M,14900,Vw,GOLF VII VARIANT DIESEL,205000,Diesel,Automatic,,2018
+1291,Bmw,18900,Bmw,X1 F48 MY 2015-,175000,Diesel,Automatic,,2017
+1277,Golf 1.6 TDI BlueM Trend,9800,Vw,GOLF VI DIESEL,265000,Diesel,Manual,,2011
+1190,Q5 SB 40TDI Bl Ed quattro,55000,Audi,Q5/SQ5 SPORTBACK DIESEL,80000,Diesel,Automatic,,2021
+1098,Golf 1.6 TDI Comfort,17500,Vw,GOLF VII VARIANT DIESEL,190324,Diesel,Manual,,2019

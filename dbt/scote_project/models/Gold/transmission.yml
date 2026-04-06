@@ -1,0 +1,16 @@
+Version 2:
+
+models:
+  - name: tranmission
+    columns:
+      - name: transmission
+        data_tests:
+          - not_null
+
+      - name: total
+        data_tests:
+          - not_null
+
+      - name: percentage
+        data_tests:
+          - not_null

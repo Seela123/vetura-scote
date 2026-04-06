@@ -1,0 +1,19 @@
+Version 2:
+
+models:
+  - name: gold_avg
+    columns:
+      - name: avg_price
+        data_tests:
+          - unique
+          - not_null
+
+      - name: avg_km
+        data_tests:
+          - unique
+          - not_null
+
+      - name: avg_year
+        data_tests:
+          - unique
+          - not_null

@@ -1,0 +1,31 @@
+version 2:
+
+models:
+  - name: silver
+    columns:
+      - name: id
+        data_tests:
+        - unique
+        - not_null
+      - name: name
+        data_tests:
+          - not_null
+      - name: brand_car
+        data_tests:
+          - not_null
+          - dbt_utils.not_empty_string
+      - name: fuel
+        data_tests:
+          - not_null
+          - dbt_utils.not_empty_string
+      - name: transmission
+        data_tests:
+          - not_null
+          - dbt_utils.not_empty_string
+
+      - name: year
+        data_tests:
+          - not_null
+          - dbt_utils.accepted_range:
+              min_value: 1900
+              max_value: 2026

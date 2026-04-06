@@ -1,0 +1,12 @@
+Version 2:
+
+models:
+  - name: brand_cars
+    columns:
+      - name: cars
+        data_tests:
+          - not_null
+
+      - name: total
+        data_tests:
+          - not_null

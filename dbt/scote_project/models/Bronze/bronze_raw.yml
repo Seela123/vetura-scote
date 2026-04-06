@@ -1,0 +1,16 @@
+version: 2
+
+sources:
+  - name: local_files
+    schema: public
+    tables:
+      - name: cars_table
+
+models:
+  - name: bronze_raw
+    config:
+      schema: bronze
+    columns:
+      - name: price
+        data_tests:
+          - not_null

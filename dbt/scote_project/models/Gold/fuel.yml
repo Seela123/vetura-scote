@@ -1,0 +1,12 @@
+Version 2:
+
+models:
+  - name: fuel
+    columns:
+      - name: fuel
+        data_tests:
+          - not_null
+
+      - name: total
+        data_tests:
+          - not_null

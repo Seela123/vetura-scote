@@ -1,0 +1,365 @@
+[0m14:46:13.843075 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FBB6221750>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FBB659FF90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FBB659E110>]}
+
+
+============================== 14:46:13.854701 | 5421cfc2-fdfe-4abc-a58f-ccfed143cb36 ==============================
+[0m14:46:13.854701 [info ] [MainThread]: Running with dbt=1.10.3
+[0m14:46:13.857683 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'logs', 'debug': 'False', 'profiles_dir': 'C:\\Users\\Selman\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'invocation_command': 'dbt init', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m14:46:41.790201 [debug] [MainThread]: Starter project path: C:\Users\Selman\AppData\Roaming\Python\Python311\site-packages\dbt\include\starter_project
+[0m14:46:41.927323 [info ] [MainThread]: 
+Your new dbt project "scote_project" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m14:46:41.931326 [info ] [MainThread]: Setting up your profile.
+[0m14:49:14.900431 [info ] [MainThread]: Profile scote_project written to C:\Users\Selman\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m14:49:14.903453 [debug] [MainThread]: Command `dbt init` succeeded at 14:49:14.902455 after 181.24 seconds
+[0m14:49:14.904437 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FBAF8738D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FBAFB419D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FBB6231090>]}
+[0m14:49:14.905430 [debug] [MainThread]: Flushing usage events
+[0m14:49:16.346247 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m14:50:07.792100 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DA8EBABB10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DA8EBABF90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DA8EBAB710>]}
+
+
+============================== 14:50:07.800122 | bc6bc939-58fb-4084-a8b1-77d8fceef862 ==============================
+[0m14:50:07.800122 [info ] [MainThread]: Running with dbt=1.10.3
+[0m14:50:07.802109 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'debug': 'False', 'log_path': 'logs', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\Selman\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'invocation_command': 'dbt debug', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m14:50:07.847059 [info ] [MainThread]: dbt version: 1.10.3
+[0m14:50:07.850062 [info ] [MainThread]: python version: 3.11.9
+[0m14:50:07.853084 [info ] [MainThread]: python path: C:\Program Files\Python311\python.exe
+[0m14:50:07.855996 [info ] [MainThread]: os info: Windows-10-10.0.19045-SP0
+[0m14:50:07.869979 [info ] [MainThread]: Error importing adapter: No module named 'dbt.adapters.databricks'
+[0m14:50:08.001973 [info ] [MainThread]: Using profiles dir at C:\Users\Selman\.dbt
+[0m14:50:08.003980 [info ] [MainThread]: Using profiles.yml file at C:\Users\Selman\.dbt\profiles.yml
+[0m14:50:08.005972 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\Selman\Desktop\scrote-vetura-screping\dbt\dbt_project.yml
+[0m14:50:08.011973 [info ] [MainThread]: Configuration:
+[0m14:50:08.013979 [info ] [MainThread]:   profiles.yml file [[31mERROR invalid[0m]
+[0m14:50:08.014975 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m14:50:08.016971 [info ] [MainThread]: Required dependencies:
+[0m14:50:08.018974 [debug] [MainThread]: Executing "git --help"
+[0m14:50:08.116739 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m14:50:08.117739 [debug] [MainThread]: STDERR: "b''"
+[0m14:50:08.118742 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m14:50:08.121745 [info ] [MainThread]: Connection test skipped since no profile was found
+[0m14:50:08.125747 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m14:50:08.128743 [info ] [MainThread]: Could not load dbt_project.yml
+Profile loading failed for the following reason:
+Runtime Error
+  Credentials in profile "nyc_data", target "dev" invalid: Runtime Error
+    Could not find adapter type databricks!
+
+
+[0m14:50:08.131741 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\Selman\Desktop\scrote-vetura-screping\dbt\dbt_project.yml> not found
+
+[0m14:50:08.136742 [debug] [MainThread]: Command `dbt debug` failed at 14:50:08.135744 after 0.53 seconds
+[0m14:50:08.138743 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DA8EABD250>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DA8811CB10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DA8811D7D0>]}
+[0m14:50:08.140738 [debug] [MainThread]: Flushing usage events
+[0m14:50:09.641607 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m14:54:07.047746 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000209D637BCD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000209D63DF4D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000209D63B1450>]}
+
+
+============================== 14:54:07.063368 | 8cef22e8-54f9-41dd-8ea8-c50c7a32bd46 ==============================
+[0m14:54:07.063368 [info ] [MainThread]: Running with dbt=1.10.3
+[0m14:54:07.063368 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Selman\\.dbt', 'version_check': 'True', 'debug': 'False', 'log_path': 'logs', 'fail_fast': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'static_parser': 'True', 'log_format': 'default', 'invocation_command': 'dbt debug', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m14:54:07.119784 [info ] [MainThread]: dbt version: 1.10.3
+[0m14:54:07.119784 [info ] [MainThread]: python version: 3.11.9
+[0m14:54:07.119784 [info ] [MainThread]: python path: C:\Program Files\Python311\python.exe
+[0m14:54:07.128060 [info ] [MainThread]: os info: Windows-10-10.0.19045-SP0
+[0m14:54:07.128060 [info ] [MainThread]: Error importing adapter: No module named 'dbt.adapters.databricks'
+[0m14:54:07.270884 [info ] [MainThread]: Using profiles dir at C:\Users\Selman\.dbt
+[0m14:54:07.270884 [info ] [MainThread]: Using profiles.yml file at C:\Users\Selman\.dbt\profiles.yml
+[0m14:54:07.270884 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\Selman\Desktop\scrote-vetura-screping\dbt\dbt_project.yml
+[0m14:54:07.270884 [info ] [MainThread]: Configuration:
+[0m14:54:07.270884 [info ] [MainThread]:   profiles.yml file [[31mERROR invalid[0m]
+[0m14:54:07.270884 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m14:54:07.286517 [info ] [MainThread]: Required dependencies:
+[0m14:54:07.286517 [debug] [MainThread]: Executing "git --help"
+[0m14:54:07.383118 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m14:54:07.383118 [debug] [MainThread]: STDERR: "b''"
+[0m14:54:07.383118 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m14:54:07.383118 [info ] [MainThread]: Connection test skipped since no profile was found
+[0m14:54:07.383118 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m14:54:07.383118 [info ] [MainThread]: Could not load dbt_project.yml
+Profile loading failed for the following reason:
+Runtime Error
+  Credentials in profile "nyc_data", target "dev" invalid: Runtime Error
+    Could not find adapter type databricks!
+
+
+[0m14:54:07.398751 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\Selman\Desktop\scrote-vetura-screping\dbt\dbt_project.yml> not found
+
+[0m14:54:07.398751 [debug] [MainThread]: Command `dbt debug` failed at 14:54:07.398751 after 0.56 seconds
+[0m14:54:07.398751 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000209CF6D38D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000209CF91CAD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000209CF91CB50>]}
+[0m14:54:07.398751 [debug] [MainThread]: Flushing usage events
+[0m14:54:08.983831 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m14:54:41.260239 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018CC13CEE10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018CBFC40F10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018CBE4E5210>]}
+
+
+============================== 14:54:41.275864 | d4606298-3d3d-47ec-93aa-9cfef82d9e07 ==============================
+[0m14:54:41.275864 [info ] [MainThread]: Running with dbt=1.10.3
+[0m14:54:41.275864 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Selman\\.dbt', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'logs', 'debug': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'introspect': 'True', 'log_format': 'default', 'invocation_command': 'dbt debug', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m14:54:41.325597 [info ] [MainThread]: dbt version: 1.10.3
+[0m14:54:41.333598 [info ] [MainThread]: python version: 3.11.9
+[0m14:54:41.335638 [info ] [MainThread]: python path: C:\Program Files\Python311\python.exe
+[0m14:54:41.335638 [info ] [MainThread]: os info: Windows-10-10.0.19045-SP0
+[0m14:54:41.351252 [info ] [MainThread]: Error importing adapter: No module named 'dbt.adapters.databricks'
+[0m14:54:41.470431 [info ] [MainThread]: Using profiles dir at C:\Users\Selman\.dbt
+[0m14:54:41.470431 [info ] [MainThread]: Using profiles.yml file at C:\Users\Selman\.dbt\profiles.yml
+[0m14:54:41.470431 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\Selman\Desktop\scrote-vetura-screping\dbt\dbt_project.yml
+[0m14:54:41.486056 [info ] [MainThread]: Configuration:
+[0m14:54:41.486056 [info ] [MainThread]:   profiles.yml file [[31mERROR invalid[0m]
+[0m14:54:41.486056 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m14:54:41.486056 [info ] [MainThread]: Required dependencies:
+[0m14:54:41.486056 [debug] [MainThread]: Executing "git --help"
+[0m14:54:41.564170 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m14:54:41.579794 [debug] [MainThread]: STDERR: "b''"
+[0m14:54:41.579794 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m14:54:41.579794 [info ] [MainThread]: Connection test skipped since no profile was found
+[0m14:54:41.579794 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m14:54:41.579794 [info ] [MainThread]: Could not load dbt_project.yml
+Profile loading failed for the following reason:
+Runtime Error
+  Credentials in profile "nyc_data", target "dev" invalid: Runtime Error
+    Could not find adapter type databricks!
+
+
+[0m14:54:41.579794 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\Selman\Desktop\scrote-vetura-screping\dbt\dbt_project.yml> not found
+
+[0m14:54:41.596424 [debug] [MainThread]: Command `dbt debug` failed at 14:54:41.596424 after 0.52 seconds
+[0m14:54:41.596424 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018CBA6E38D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018CBA92CB50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018CBA92D7D0>]}
+[0m14:54:41.596424 [debug] [MainThread]: Flushing usage events
+[0m14:54:42.950600 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m14:58:06.535409 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021C721C6390>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021C722F10D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021C721C5F50>]}
+
+
+============================== 14:58:06.544409 | 3af449e6-bbec-4a58-81cc-9a31ec394b8b ==============================
+[0m14:58:06.544409 [info ] [MainThread]: Running with dbt=1.10.3
+[0m14:58:06.546394 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Selman\\.dbt', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'logs', 'version_check': 'True', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'invocation_command': 'dbt debug', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m14:58:06.599409 [info ] [MainThread]: dbt version: 1.10.3
+[0m14:58:06.601396 [info ] [MainThread]: python version: 3.11.9
+[0m14:58:06.604402 [info ] [MainThread]: python path: C:\Program Files\Python311\python.exe
+[0m14:58:06.607387 [info ] [MainThread]: os info: Windows-10-10.0.19045-SP0
+[0m14:58:06.746356 [info ] [MainThread]: Error importing adapter: No module named 'dbt.adapters.databricks'
+[0m14:58:06.748347 [info ] [MainThread]: Using profiles dir at C:\Users\Selman\.dbt
+[0m14:58:06.750343 [info ] [MainThread]: Using profiles.yml file at C:\Users\Selman\.dbt\profiles.yml
+[0m14:58:06.754337 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\Selman\Desktop\scrote-vetura-screping\dbt\dbt_project.yml
+[0m14:58:06.756333 [info ] [MainThread]: Configuration:
+[0m14:58:06.759334 [info ] [MainThread]:   profiles.yml file [[31mERROR invalid[0m]
+[0m14:58:06.761334 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m14:58:06.763334 [info ] [MainThread]: Required dependencies:
+[0m14:58:06.765335 [debug] [MainThread]: Executing "git --help"
+[0m14:58:06.863201 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m14:58:06.864887 [debug] [MainThread]: STDERR: "b''"
+[0m14:58:06.866121 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m14:58:06.869296 [info ] [MainThread]: Connection test skipped since no profile was found
+[0m14:58:06.875237 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m14:58:06.877455 [info ] [MainThread]: Could not load dbt_project.yml
+Profile loading failed for the following reason:
+Runtime Error
+  Credentials in profile "nyc_data", target "dev" invalid: Runtime Error
+    Could not find adapter type databricks!
+
+
+[0m14:58:06.880180 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\Selman\Desktop\scrote-vetura-screping\dbt\dbt_project.yml> not found
+
+[0m14:58:06.889543 [debug] [MainThread]: Command `dbt debug` failed at 14:58:06.888666 after 0.52 seconds
+[0m14:58:06.891914 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021C6B7238D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021C6B96D850>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021C6B96D7D0>]}
+[0m14:58:06.893668 [debug] [MainThread]: Flushing usage events
+[0m14:58:08.535892 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m14:58:44.875034 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001440288B850>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000144028A45D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000014402676250>]}
+
+
+============================== 14:58:44.883056 | b42c9a5e-8a31-4767-9a1a-286a1c785f8b ==============================
+[0m14:58:44.883056 [info ] [MainThread]: Running with dbt=1.10.3
+[0m14:58:44.885040 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'logs', 'profiles_dir': 'C:\\Users\\Selman\\.dbt', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'introspect': 'True', 'static_parser': 'True', 'invocation_command': 'dbt debug', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m14:58:44.932338 [info ] [MainThread]: dbt version: 1.10.3
+[0m14:58:44.934429 [info ] [MainThread]: python version: 3.11.9
+[0m14:58:44.936433 [info ] [MainThread]: python path: C:\Program Files\Python311\python.exe
+[0m14:58:44.939818 [info ] [MainThread]: os info: Windows-10-10.0.19045-SP0
+[0m14:58:45.062723 [info ] [MainThread]: Error importing adapter: No module named 'dbt.adapters.databricks'
+[0m14:58:45.065238 [info ] [MainThread]: Using profiles dir at C:\Users\Selman\.dbt
+[0m14:58:45.067241 [info ] [MainThread]: Using profiles.yml file at C:\Users\Selman\.dbt\profiles.yml
+[0m14:58:45.071229 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\Selman\Desktop\scrote-vetura-screping\dbt\dbt_project.yml
+[0m14:58:45.073224 [info ] [MainThread]: Configuration:
+[0m14:58:45.074229 [info ] [MainThread]:   profiles.yml file [[31mERROR invalid[0m]
+[0m14:58:45.076227 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m14:58:45.079271 [info ] [MainThread]: Required dependencies:
+[0m14:58:45.080224 [debug] [MainThread]: Executing "git --help"
+[0m14:58:45.158220 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m14:58:45.159244 [debug] [MainThread]: STDERR: "b''"
+[0m14:58:45.160223 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m14:58:45.162221 [info ] [MainThread]: Connection test skipped since no profile was found
+[0m14:58:45.166246 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m14:58:45.168440 [info ] [MainThread]: Could not load dbt_project.yml
+Profile loading failed for the following reason:
+Runtime Error
+  Credentials in profile "nyc_data", target "dev" invalid: Runtime Error
+    Could not find adapter type databricks!
+
+
+[0m14:58:45.170433 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\Selman\Desktop\scrote-vetura-screping\dbt\dbt_project.yml> not found
+
+[0m14:58:45.173433 [debug] [MainThread]: Command `dbt debug` failed at 14:58:45.172439 after 0.47 seconds
+[0m14:58:45.174435 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001447BCA38D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001447BEECAD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000144029290D0>]}
+[0m14:58:45.175434 [debug] [MainThread]: Flushing usage events
+[0m14:58:46.669163 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m15:00:42.474989 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002052720FC90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000205271A9610>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000205271E19D0>]}
+
+
+============================== 15:00:42.481967 | 399decfa-6a8c-416f-9af2-bf0778c20796 ==============================
+[0m15:00:42.481967 [info ] [MainThread]: Running with dbt=1.10.3
+[0m15:00:42.484973 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Selman\\.dbt', 'version_check': 'True', 'debug': 'False', 'log_path': 'logs', 'fail_fast': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'invocation_command': 'dbt debug', 'introspect': 'True', 'log_format': 'default', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m15:00:42.529512 [info ] [MainThread]: dbt version: 1.10.3
+[0m15:00:42.530488 [info ] [MainThread]: python version: 3.11.9
+[0m15:00:42.533496 [info ] [MainThread]: python path: C:\Program Files\Python311\python.exe
+[0m15:00:42.536651 [info ] [MainThread]: os info: Windows-10-10.0.19045-SP0
+[0m15:00:42.667775 [info ] [MainThread]: Error importing adapter: No module named 'dbt.adapters.databricks'
+[0m15:00:42.669757 [info ] [MainThread]: Using profiles dir at C:\Users\Selman\.dbt
+[0m15:00:42.671753 [info ] [MainThread]: Using profiles.yml file at C:\Users\Selman\.dbt\profiles.yml
+[0m15:00:42.675502 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\Selman\Desktop\scrote-vetura-screping\dbt\dbt_project.yml
+[0m15:00:42.677501 [info ] [MainThread]: Configuration:
+[0m15:00:42.679502 [info ] [MainThread]:   profiles.yml file [[31mERROR invalid[0m]
+[0m15:00:42.680501 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m15:00:42.682501 [info ] [MainThread]: Required dependencies:
+[0m15:00:42.683525 [debug] [MainThread]: Executing "git --help"
+[0m15:00:42.767302 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m15:00:42.769300 [debug] [MainThread]: STDERR: "b''"
+[0m15:00:42.771302 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m15:00:42.773314 [info ] [MainThread]: Connection test skipped since no profile was found
+[0m15:00:42.776304 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m15:00:42.779303 [info ] [MainThread]: Could not load dbt_project.yml
+Profile loading failed for the following reason:
+Runtime Error
+  Credentials in profile "nyc_data", target "dev" invalid: Runtime Error
+    Could not find adapter type databricks!
+
+
+[0m15:00:42.782302 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\Selman\Desktop\scrote-vetura-screping\dbt\dbt_project.yml> not found
+
+[0m15:00:42.785306 [debug] [MainThread]: Command `dbt debug` failed at 15:00:42.784302 after 0.45 seconds
+[0m15:00:42.786306 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000205271E35D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000205205538D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000205271C6850>]}
+[0m15:00:42.787303 [debug] [MainThread]: Flushing usage events
+[0m15:00:44.157465 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m15:01:32.499298 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000234DAA4AE90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000234DAA80290>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000234DAA80750>]}
+
+
+============================== 15:01:32.507736 | 411d1fcc-cd92-4aa7-9ac2-9b83fac137d5 ==============================
+[0m15:01:32.507736 [info ] [MainThread]: Running with dbt=1.10.3
+[0m15:01:32.510742 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Selman\\.dbt', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'logs', 'warn_error': 'None', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'invocation_command': 'dbt debug', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m15:01:32.557815 [info ] [MainThread]: dbt version: 1.10.3
+[0m15:01:32.559819 [info ] [MainThread]: python version: 3.11.9
+[0m15:01:32.561811 [info ] [MainThread]: python path: C:\Program Files\Python311\python.exe
+[0m15:01:32.565101 [info ] [MainThread]: os info: Windows-10-10.0.19045-SP0
+[0m15:01:32.754020 [info ] [MainThread]: Error importing adapter: No module named 'dbt.adapters.databricks'
+[0m15:01:32.763027 [info ] [MainThread]: Using profiles dir at C:\Users\Selman\.dbt
+[0m15:01:32.766019 [info ] [MainThread]: Using profiles.yml file at C:\Users\Selman\.dbt\profiles.yml
+[0m15:01:32.768019 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\Selman\Desktop\scrote-vetura-screping\dbt\dbt_project.yml
+[0m15:01:32.784019 [info ] [MainThread]: Configuration:
+[0m15:01:32.785020 [info ] [MainThread]:   profiles.yml file [[31mERROR invalid[0m]
+[0m15:01:32.789028 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m15:01:32.791023 [info ] [MainThread]: Required dependencies:
+[0m15:01:32.793021 [debug] [MainThread]: Executing "git --help"
+[0m15:01:32.874020 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m15:01:32.876018 [debug] [MainThread]: STDERR: "b''"
+[0m15:01:32.877026 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m15:01:32.879024 [info ] [MainThread]: Connection test skipped since no profile was found
+[0m15:01:32.882024 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m15:01:32.884910 [info ] [MainThread]: Could not load dbt_project.yml
+Profile loading failed for the following reason:
+Runtime Error
+  Credentials in profile "nyc_data", target "dev" invalid: Runtime Error
+    Could not find adapter type databricks!
+
+
+[0m15:01:32.886906 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\Selman\Desktop\scrote-vetura-screping\dbt\dbt_project.yml> not found
+
+[0m15:01:32.894902 [debug] [MainThread]: Command `dbt debug` failed at 15:01:32.893909 after 0.56 seconds
+[0m15:01:32.896905 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000234D3DE38D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000234D402CB50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000234D402D7D0>]}
+[0m15:01:32.898903 [debug] [MainThread]: Flushing usage events
+[0m15:01:34.309352 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m15:03:03.896090 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F44B04BDD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F44AF55910>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F44B04BED0>]}
+
+
+============================== 15:03:03.904088 | 1f39456c-2bc4-4705-94da-4de294b79514 ==============================
+[0m15:03:03.904088 [info ] [MainThread]: Running with dbt=1.10.3
+[0m15:03:03.905696 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Selman\\.dbt', 'version_check': 'True', 'debug': 'False', 'log_path': 'logs', 'warn_error': 'None', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'invocation_command': 'dbt debug', 'static_parser': 'True', 'introspect': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m15:03:03.950872 [info ] [MainThread]: dbt version: 1.10.3
+[0m15:03:03.952879 [info ] [MainThread]: python version: 3.11.9
+[0m15:03:03.955881 [info ] [MainThread]: python path: C:\Program Files\Python311\python.exe
+[0m15:03:03.958875 [info ] [MainThread]: os info: Windows-10-10.0.19045-SP0
+[0m15:03:03.964882 [info ] [MainThread]: target not specified in profile 'name', using 'default'
+[0m15:03:03.967876 [info ] [MainThread]: target not specified in profile 'version', using 'default'
+[0m15:03:03.970875 [error] [MainThread]: Encountered an error:
+argument of type 'int' is not iterable
+[0m15:03:04.088777 [error] [MainThread]: Traceback (most recent call last):
+  File "C:\Users\Selman\AppData\Roaming\Python\Python311\site-packages\dbt\cli\requires.py", line 161, in wrapper
+    result, success = func(*args, **kwargs)
+                      ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Selman\AppData\Roaming\Python\Python311\site-packages\dbt\cli\requires.py", line 111, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Selman\AppData\Roaming\Python\Python311\site-packages\dbt\cli\main.py", line 420, in debug
+    results = task.run()
+              ^^^^^^^^^^
+  File "C:\Users\Selman\AppData\Roaming\Python\Python311\site-packages\dbt\task\debug.py", line 114, in run
+    load_profile_status: SubtaskStatus = self._load_profile()
+                                         ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Selman\AppData\Roaming\Python\Python311\site-packages\dbt\task\debug.py", line 205, in _load_profile
+    profile: Profile = Profile.render(
+                       ^^^^^^^^^^^^^^^
+  File "C:\Users\Selman\AppData\Roaming\Python\Python311\site-packages\dbt\config\profile.py", line 402, in render
+    return cls.from_raw_profiles(
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Selman\AppData\Roaming\Python\Python311\site-packages\dbt\config\profile.py", line 368, in from_raw_profiles
+    return cls.from_raw_profile_info(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Selman\AppData\Roaming\Python\Python311\site-packages\dbt\config\profile.py", line 314, in from_raw_profile_info
+    target_name, profile_data = cls.render_profile(
+                                ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Selman\AppData\Roaming\Python\Python311\site-packages\dbt\config\profile.py", line 273, in render_profile
+    elif "target" in raw_profile:
+         ^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: argument of type 'int' is not iterable
+
+[0m15:03:04.095789 [debug] [MainThread]: Command `dbt debug` failed at 15:03:04.095789 after 0.37 seconds
+[0m15:03:04.096790 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F4443B38D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F44B0AEE90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F44B0AFB50>]}
+[0m15:03:04.097793 [debug] [MainThread]: Flushing usage events
+[0m15:03:05.828356 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m10:16:31.009318 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028236A4BB10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028236A981D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028236A98110>]}
+
+
+============================== 10:16:31.017319 | 4b16e5a0-d2be-4fa9-b18b-7fc05c5d50c9 ==============================
+[0m10:16:31.017319 [info ] [MainThread]: Running with dbt=1.10.3
+[0m10:16:31.025320 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Selman\\.dbt', 'debug': 'False', 'warn_error': 'None', 'log_path': 'logs', 'fail_fast': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'invocation_command': 'dbt test', 'introspect': 'True', 'log_format': 'default', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m10:16:31.025320 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\Selman\Desktop\scrote-vetura-screping\dbt\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m10:16:31.033323 [debug] [MainThread]: Command `dbt test` failed at 10:16:31.033323 after 0.45 seconds
+[0m10:16:31.036802 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002822FE23810>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028236A4B790>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028236836610>]}
+[0m10:16:31.036802 [debug] [MainThread]: Flushing usage events
+[0m10:16:33.294936 [debug] [MainThread]: An error was encountered while trying to flush usage events
