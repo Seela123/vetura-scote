@@ -310,16 +310,8 @@ organizing transformations using Bronze, Silver, and Gold layers
 preparing data for dashboard use
 Future Improvements
 
-Possible next improvements for this project:
 
-add logging to the Python script
-improve error handling
-schedule the pipeline with Airflow
-add more dbt tests
-create more Gold models
-improve dashboard design with more KPIs
-containerize the project with Docker
-deploy the project to the cloud
-Author
+Author:
+Selman bytyqi
 
 Seela123
