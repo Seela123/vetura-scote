@@ -76,7 +76,8 @@ vetura-scote/
 ├── vetura_score.csv
 ├── dashbord scote-vetura.pbix
 ├── README.md
-├── .gitignore'''
+├── .gitignore
+```
 Folder and File Description
 scraping.py
 Python script that extracts data from the VeturaScout API, creates the PostgreSQL table, inserts records, and exports the dataset to CSV.
