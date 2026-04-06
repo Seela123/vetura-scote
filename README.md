@@ -58,7 +58,7 @@ The scraper extracts the following fields:
 - `city`
 - `year`
 
----
+```
 
 ## Project Structure
 
@@ -111,7 +111,8 @@ The raw scraped data is stored in the cars_table table.
 
 Example table schema:
 
-```CREATE TABLE IF NOT EXISTS cars_table (
+```
+CREATE TABLE IF NOT EXISTS cars_table (
     id INTEGER PRIMARY KEY,
     name VARCHAR(255),
     price NUMERIC,
@@ -122,7 +123,8 @@ Example table schema:
     transmission VARCHAR(100),
     city VARCHAR(100),
     year INTEGER
-);```
+);
+```
 
 To avoid duplicate records, the script uses:
 
