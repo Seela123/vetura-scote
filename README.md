@@ -18,10 +18,7 @@ This project demonstrates practical data engineering work, including:
 
 ## Architecture
 
-The project follows this flow:
-
-**VeturaScout API → Python Scraper → PostgreSQL → dbt Bronze → dbt Silver → dbt Gold → Power BI Dashboard**
-
+![Project Architecture](Arcitecture.png)
 ---
 
 ## Tech Stack
