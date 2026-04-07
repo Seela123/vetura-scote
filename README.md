@@ -246,22 +246,25 @@ Dashboard Screenshots
 
 
 Dashboard Overview
-## Dashboard Screenshot
+ 
+Dashboard Screenshot 
+
+The average
 
 ![Dashboard Overview](dashboard_avg.png)
 
 
 Fuel Distribution Visual
 
-![Fuel Distribution](images/fuel_distribution.png)
+![Dashboard Overview](Fuel.png))
 
 Transmission Analysis Visual
 
-![Transmission Analysis](images/transmission_analysis.png)
+![Dashboard Overview](Transmission.png)
 
-KPI Summary Visual
+Model overview 
 
-![KPI Summary](images/kpi_summary.png)
+![Dashboard Overview](Model.png)
 
 How to Run the Project
 1. Clone the repository
@@ -325,4 +328,3 @@ Future Improvements
 Author:
 Selman bytyqi
 
-Seela123
